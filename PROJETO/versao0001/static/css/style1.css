@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/static/imagens/wallpaper-ideia3.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o corpo */
+    background-position: center; /* Centraliza a imagem no corpo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    height: 100vh; /* Garante que a imagem cubra toda a altura da viewport */
+}
+.imagemhome{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.buttoninciar{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    width: 200px;
+    font-size: 20px;
+    color:azure;
+    background-color: #1507d8;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0a0a09;
+    transition: 0.3s all    
+}
