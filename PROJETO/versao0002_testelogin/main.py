@@ -8,6 +8,10 @@ app.secret_key = 'cQxuPDLQ3e5kcxRVrZNaC8Hvj9Lxyq34'
 def home():
     return render_template("index.html")
 
+@app.route("/sobre")
+def sobre():
+    return render_template("sobre.html")
+
 @app.route("/login", methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
